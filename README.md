@@ -3,6 +3,7 @@
 ## Stéganographie
 
 ### Strings
+Cette commande permet d'afficher toutes les chaînes de caractères (sans doublon) qui se trouvent dans le fichier et dont la taille est supérieure à 10 caractères :
 ```
 strings fichier.ext | awk 'length($0)>10' | sort -u
 ```
