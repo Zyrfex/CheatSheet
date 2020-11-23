@@ -3,8 +3,7 @@
 ## Cryptographie
 
 ### CyberChef - The Cyber Swiss Army Knife
-Cette application web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier :
-https://gchq.github.io/CyberChef/
+Cette application web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier : https://gchq.github.io/CyberChef/
 
 ## Stéganographie
 
