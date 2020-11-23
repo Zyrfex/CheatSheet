@@ -2,5 +2,10 @@
 
 ## Stéganographie
 
+### Strings
+```
+strings fichier.ext | awk 'length($0)>10' | sort -u
+```
+
 ### Stegsolve
 Téléchargez ici [Stegsolve v1.3](https://github.com/Zyrfex/CheatSheet/raw/main/Outils/Stegsolve%20v1.3.jar)
