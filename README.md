@@ -3,7 +3,7 @@
 ## Stéganographie
 
 ### File
-Cette commande permet de connaître le type du fichier qu'on lui passe en paramètre même si l'extension a été changée, en effet, il se base sur les premiers octets du fichier que l'on appelle _magic numbers_ :
+Cette commande permet de connaître le type du fichier qu'on lui passe en paramètre même si l'extension a été changée, en effet, elle se base sur les premiers octets du fichier qui sont appellés _magic numbers_ :
 ```
 file fichier.ext
 ```
