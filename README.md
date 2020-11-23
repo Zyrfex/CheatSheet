@@ -1,4 +1,4 @@
-# Cheat Sheet pour les Catch The Flag (CTF) par Zyrfex
+# Cheat Sheet pour les Capture The Flag (CTF) par Zyrfex
 
 ## Cryptographie
 
