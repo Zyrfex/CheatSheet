@@ -3,9 +3,9 @@
 ## Stéganographie
 
 ### Strings
-Cette commande permet d'afficher toutes les chaînes de caractères (sans doublon) qui se trouvent dans le fichier et dont la taille est supérieure à 10 caractères :
+Cette commande permet d'afficher toutes les chaînes de caractères dédoublonnées d'au moins 10 caractères qui se trouvent dans le fichier :
 ```
-strings fichier.ext | awk 'length($0)>10' | sort -u
+strings fichier.ext | awk 'length($0)>9' | sort -u
 ```
 
 ### Stegsolve
