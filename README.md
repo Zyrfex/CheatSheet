@@ -2,6 +2,12 @@
 
 ## Stéganographie
 
+### File
+Cette commande permet de connaître le type du fichier qu'on lui passe en paramètre même si l'extension a été changée, en effet, il se base sur les premiers octets du fichier que l'on appelle _magic numbers_ :
+```
+file fichier.ext
+```
+
 ### Strings
 Cette commande permet d'afficher toutes les chaînes de caractères dédoublonnées d'au moins 10 caractères qui se trouvent dans le fichier :
 ```
