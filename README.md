@@ -21,7 +21,7 @@ file fichier.ext
 ```
 
 ### Stegsolve
-Cette application Java permet l'analyse d'images en profondeur avec notamment différentes vues possibles en fonctions des couches de couleurs :
+Cette application Java permet l'analyse d'une image en profondeur avec notamment différentes vues possibles en fonction des couches de couleur :
 Téléchargez ici [Stegsolve v1.3](https://github.com/Zyrfex/CheatSheet/raw/main/Outils/Stegsolve%20v1.3.jar)
 
 ### Strings
