@@ -8,24 +8,34 @@ https://gchq.github.io/CyberChef/
 
 ## Stéganographie
 
-### Exiftool
+### exiftool
 Cette application Linux permet de consulter les métadonnées contenues dans le fichier : 
 ```
 exiftool fichier.ext
 ```
 
-### File
+### file
 Cette commande Linux permet de connaître le type de fichier même si l'extension a été changée, en effet, elle se base sur les premiers octets du fichier qui sont appellés _magic numbers_ : 
 ```
 file fichier.ext
 ```
 
-### Stegsolve
+### stegsolve
 Cette application Java permet l'analyse d'une image en profondeur avec notamment différentes vues possibles en fonction des couches de couleur : 
 [Stegsolve v1.3](https://github.com/Zyrfex/CheatSheet/raw/main/Outils/Stegsolve%20v1.3.jar)
 
-### Strings
+### strings
 Cette commande Linux permet d'afficher toutes les chaînes de caractères dédoublonnées d'au moins 10 caractères qui se trouvent dans le fichier : 
 ```
 strings fichier.ext | awk 'length($0)>9' | sort -u
+```
+### zsteg
+Cette application Linux permet de détecter des métadonnées contenues dans des fichiers PNG et BMP.
+Installation :
+```
+sudo gem install zsteg
+```
+Utilisation :
+```
+zsteg -a fichier.ext
 ```
