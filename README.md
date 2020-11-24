@@ -9,7 +9,7 @@ Elle est accessible ici : https://gchq.github.io/CyberChef/
 ## Stéganographie
 
 ### exiftool
-Cette application Perl permet de consulter les métadonnées contenues dans le fichier.  
+Cette application Perl permet de consulter les métadonnées contenues dans un fichier.  
   
 Installation :
 ```
@@ -29,11 +29,11 @@ file fichier.ext
 ```
 
 ### stegsolve
-Cette application Java permet l'analyse d'une image en profondeur avec notamment différentes vues possibles en fonction des couches de couleur.  
+Cette application Java permet l'analyse d'un fichier image en profondeur avec notamment différentes vues possibles en fonction des couches de couleur.  
 Elle est téléchargeable ici : [Stegsolve v1.3](https://github.com/Zyrfex/CheatSheet/raw/main/Outils/Stegsolve%20v1.3.jar)
 
 ### strings
-Cette commande Linux permet d'afficher toutes les chaînes de caractères dédoublonnées d'au moins 10 caractères qui se trouvent dans le fichier.  
+Cette commande Linux permet d'afficher toutes les chaînes de caractères dédoublonnées d'au moins 10 caractères qui se trouvent dans un fichier.  
   
 Utilisation :
 ```
@@ -41,7 +41,7 @@ strings fichier.ext | awk 'length($0)>9' | sort -u
 ```
 
 ### zsteg
-Cette application Ruby permet de détecter des métadonnées contenues dans des fichiers PNG et BMP.  
+Cette application Ruby permet de détecter des métadonnées contenues dans un fichier PNG ou BMP.  
   
 Installation :
 ```
