@@ -3,7 +3,7 @@
 ## Cryptographie
 
 ### CyberChef - The Cyber Swiss Army Knife
-Cette application Web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier : 
+Cette application Web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier :  
 https://gchq.github.io/CyberChef/
 
 ## Stéganographie
@@ -21,7 +21,7 @@ file fichier.ext
 ```
 
 ### stegsolve
-Cette application Java permet l'analyse d'une image en profondeur avec notamment différentes vues possibles en fonction des couches de couleur : 
+Cette application Java permet l'analyse d'une image en profondeur avec notamment différentes vues possibles en fonction des couches de couleur :  
 [Stegsolve v1.3](https://github.com/Zyrfex/CheatSheet/raw/main/Outils/Stegsolve%20v1.3.jar)
 
 ### strings
@@ -30,7 +30,7 @@ Cette commande Linux permet d'afficher toutes les chaînes de caractères dédou
 strings fichier.ext | awk 'length($0)>9' | sort -u
 ```
 ### zsteg
-Cette application Ruby permet de détecter des métadonnées contenues dans des fichiers PNG et BMP.
+Cette application Ruby permet de détecter des métadonnées contenues dans des fichiers PNG et BMP.  
 Installation :
 ```
 sudo gem install zsteg
