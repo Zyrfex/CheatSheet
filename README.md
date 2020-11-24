@@ -30,7 +30,7 @@ Cette commande Linux permet d'afficher toutes les chaînes de caractères dédou
 strings fichier.ext | awk 'length($0)>9' | sort -u
 ```
 ### zsteg
-Cette application Linux permet de détecter des métadonnées contenues dans des fichiers PNG et BMP.
+Cette application Ruby permet de détecter des métadonnées contenues dans des fichiers PNG et BMP.
 Installation :
 ```
 sudo gem install zsteg
