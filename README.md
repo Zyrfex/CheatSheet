@@ -9,7 +9,12 @@ https://gchq.github.io/CyberChef/
 ## Stéganographie
 
 ### exiftool
-Cette application Linux permet de consulter les métadonnées contenues dans le fichier : 
+Cette application Perl permet de consulter les métadonnées contenues dans le fichier :  
+Installation :
+```
+sudo apt install libimage-exiftool-perl
+```
+Utilisation :
 ```
 exiftool fichier.ext
 ```
