@@ -1,6 +1,6 @@
 # Cheat Sheet pour les Capture The Flag (CTF) par Zyrfex
 
-## Réseau
+## Enumération
 
 ### Découverte des machines sur le réseau
 ```
@@ -8,11 +8,6 @@ sudo nmap -sn 192.168.1.0/24
 ```
 ```
 sudo netdiscover
-```
-
-### Connaître son adresse IP publique
-```
-echo $(curl -s https://api.ipify.org)
 ```
 
 ## Cryptographie
@@ -65,4 +60,11 @@ sudo gem install zsteg
 Utilisation :
 ```
 zsteg -a fichier.ext
+```
+
+## Divers
+
+### Connaître son adresse IP publique
+```
+echo $(curl -s https://api.ipify.org)
 ```
