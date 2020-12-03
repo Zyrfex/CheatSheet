@@ -10,7 +10,7 @@ sudo nmap -sn 192.168.1.0/24 | awk '/^(Nmap scan|MAC Address)/{ORS=(f+=sub(/^.*(
 sudo netdiscover
 ```
 
-### Analyse d'une machine sur le réseau
+### Analyse d'une machine sur le réseau (système d'exploitation, port, programme et version)
 ```
 sudo nmap -A -T4 192.168.1.1
 ```
