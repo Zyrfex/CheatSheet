@@ -1,10 +1,17 @@
 # Cheat Sheet pour les Capture The Flag (CTF) par Zyrfex
 
-## Découverte des machines sur le réseau
+## Réseau
 
-### nmap
+### Découverte des machines sur le réseau
+
+Avec nmap :  
 ```
 nmap -sn 192.168.1.0/24
+```
+
+### Connaître son adresse IP publique
+```
+echo $(curl -s https://api.ipify.org)
 ```
 
 ## Cryptographie
