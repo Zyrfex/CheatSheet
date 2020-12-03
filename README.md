@@ -4,7 +4,7 @@
 
 ### Découverte des machines sur le réseau
 ```
-sudo nmap -sn 192.168.1.0/24
+sudo nmap -sn 192.168.1.0/24 | awk '/^(Nmap scan|MAC Address)/{ORS=(f+=sub(/^.*(for|:..) /,""))%2?OFS:RS; print}END{printf "<<= Mon IP\n"}'
 ```
 ```
 sudo netdiscover
