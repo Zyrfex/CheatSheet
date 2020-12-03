@@ -3,10 +3,11 @@
 ## Réseau
 
 ### Découverte des machines sur le réseau
-
-Avec nmap :  
 ```
 nmap -sn 192.168.1.0/24
+```
+```
+sudo netdiscover
 ```
 
 ### Connaître son adresse IP publique
