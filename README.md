@@ -1,5 +1,12 @@
 # Cheat Sheet pour les Capture The Flag (CTF) par Zyrfex
 
+## Découverte des machines sur le réseau
+
+### nmap
+```
+nmap -sn 192.168.1.0/24
+```
+
 ## Cryptographie
 
 ### CyberChef - The Cyber Swiss Army Knife
