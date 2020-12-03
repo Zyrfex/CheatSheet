@@ -4,7 +4,7 @@
 
 ### Découverte des machines sur le réseau
 ```
-nmap -sn 192.168.1.0/24
+sudo nmap -sn 192.168.1.0/24
 ```
 ```
 sudo netdiscover
