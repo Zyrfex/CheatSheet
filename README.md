@@ -12,7 +12,7 @@ sudo netdiscover
 
 ### Analyse d'une machine sur le réseau
 ```
-sudo nmap -A -T4 192.168.1.0
+sudo nmap -A -T4 192.168.1.1
 ```
 
 ## Cryptographie
