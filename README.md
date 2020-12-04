@@ -22,7 +22,7 @@ Cette application Web permet d'effectuer une opération ou une série d’opéra
 Elle est accessible ici : https://gchq.github.io/CyberChef/
 
 ### RsaCtfTool
-Cette application Python permet d'effectuer plusieurs types d'attaque sur du RSA.  
+Cette application Python permet d'effectuer plusieurs types d'attaques sur du RSA.  
 Elle est accessible ici : https://github.com/Ganapati/RsaCtfTool  
 Installation :
 ```
