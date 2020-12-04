@@ -21,6 +21,20 @@ sudo nmap -A -T4 192.168.1.1
 Cette application Web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier.  
 Elle est accessible ici : https://gchq.github.io/CyberChef/
 
+### RsaCtfTool
+Cette application Python permet d'effectuer plusieurs types d'attaque sur du RSA.  
+Elle est accessible ici : https://github.com/Ganapati/RsaCtfTool  
+Installation :
+```
+git clone https://github.com/Ganapati/RsaCtfTool.git
+sudo apt-get install libgmp3-dev libmpc-dev
+pip3 install -r "requirements.txt"
+```
+Utilisation :
+```
+python3 RsaCtfTool.py -n <n> -e <e> --unciper <c>
+```
+
 ## Stéganographie
 
 ### exiftool
