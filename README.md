@@ -21,6 +21,10 @@ sudo nmap -A -T4 192.168.1.1
 Cette application Web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier.  
 Elle est accessible ici : https://gchq.github.io/CyberChef/
 
+### Morse
+Audio : https://morsecode.world/international/decoder/audio-decoder-adaptive.html
+Texte : https://www.dcode.fr/code-morse
+
 ### RsaCtfTool
 Cette application Python permet d'effectuer plusieurs types d'attaques sur du RSA.  
 Elle est accessible ici : https://github.com/Ganapati/RsaCtfTool  
