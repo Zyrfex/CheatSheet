@@ -36,7 +36,7 @@ pip3 install -r "requirements.txt"
 ```
 Utilisation :
 ```bash
-python3 RsaCtfTool.py -n <n> -e <e> --unciper <c>
+python3 RsaCtfTool.py -n <n> -e <e> --uncipher <c>
 ```
 
 ## Stéganographie
