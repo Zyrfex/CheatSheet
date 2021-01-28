@@ -26,7 +26,8 @@ Audio : https://morsecode.world/international/decoder/audio-decoder-adaptive.htm
 Texte : https://www.dcode.fr/code-morse
 
 ### Nombre des moines Cisterciens
-https://www.dcode.fr/nombres-cisterciens
+Description : https://fr.wikipedia.org/wiki/Syst%C3%A8me_cistercien_de_notation_num%C3%A9rique
+Convertisseur : https://www.dcode.fr/nombres-cisterciens
 
 ### RsaCtfTool
 Cette application Python permet d'effectuer plusieurs types d'attaques sur du RSA.  
