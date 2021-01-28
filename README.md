@@ -43,6 +43,9 @@ Utilisation :
 python3 RsaCtfTool.py -n <n> -e <e> --uncipher <c>
 ```
 
+### Rune
+Description : [Wikipedia](https://fr.wikipedia.org/wiki/Rune)
+
 ## Stéganographie
 
 ### exiftool
