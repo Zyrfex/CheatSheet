@@ -22,8 +22,8 @@ Cette application Web permet d'effectuer une opération ou une série d’opéra
 Elle est accessible ici : [CyberChef - The Cyber Swiss Army Knife](https://gchq.github.io/CyberChef/)
 
 ### Morse
-Audio : https://morsecode.world/international/decoder/audio-decoder-adaptive.html  
-Texte : https://www.dcode.fr/code-morse
+[Convertisseur audio](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)  
+[Convertisseur textuel](https://www.dcode.fr/code-morse)
 
 ### Nombre des moines Cisterciens
 Description : [Wikipedia](https://fr.wikipedia.org/wiki/Syst%C3%A8me_cistercien_de_notation_num%C3%A9rique)  
