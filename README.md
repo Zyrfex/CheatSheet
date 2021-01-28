@@ -1,4 +1,4 @@
-# Cheat Sheet pour les Capture The Flag (CTF) par Zyrfex
+# Cheat Sheet par Zyrfex
 
 ## Enumération
 
