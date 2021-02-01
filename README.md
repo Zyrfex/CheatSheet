@@ -12,7 +12,7 @@ sudo netdiscover
 
 ### Analyse d'une machine sur le réseau (système d'exploitation, principaux ports => programme et version)
 ```bash
-sudo nmap -A -T4 192.168.1.1
+sudo nmap -p1-65535 -A -T4 192.168.1.1
 ```
 
 ## Cryptographie
