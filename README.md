@@ -15,37 +15,6 @@ sudo netdiscover
 sudo nmap -p1-65535 -A -T4 192.168.1.1
 ```
 
-## Cryptographie
-
-### CyberChef - The Cyber Swiss Army Knife
-Cette application Web permet d'effectuer une opération ou une série d’opérations sur un texte ou un fichier.  
-Elle est accessible ici : [CyberChef - The Cyber Swiss Army Knife](https://gchq.github.io/CyberChef/)
-
-### Morse
-[Convertisseur audio](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)  
-[Convertisseur textuel](https://www.dcode.fr/code-morse)
-
-### Nombre des moines Cisterciens
-Description : [Wikipedia](https://fr.wikipedia.org/wiki/Syst%C3%A8me_cistercien_de_notation_num%C3%A9rique)  
-Convertisseur : [DCODE](https://www.dcode.fr/nombres-cisterciens)
-
-### RsaCtfTool
-Cette application Python permet d'effectuer plusieurs types d'attaques sur du RSA.  
-Elle est accessible ici : [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)  
-Installation :
-```bash
-git clone https://github.com/Ganapati/RsaCtfTool.git
-sudo apt-get install libgmp3-dev libmpc-dev
-pip3 install -r "requirements.txt"
-```
-Utilisation :
-```bash
-python3 RsaCtfTool.py -n <n> -e <e> --uncipher <c>
-```
-
-### Rune
-Description : [Wikipedia](https://fr.wikipedia.org/wiki/Rune)
-
 ## Stéganographie
 
 ### exiftool
